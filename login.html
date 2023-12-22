@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş</title>
+</head>
+<body>
+    <script>
+var k_username = "admin";
+var k_pass = "123";
+var login = false;
+
+while (login == false) 
+ {
+var username =prompt("kullanıcı adı gir");
+var pass =prompt("şifre gir");
+
+if ((k_username==username) && (k_pass==pass))
+{
+console.log("giriş yapıldı");
+login=true;
+}
+else
+{
+ console.log("HATA");
+}
+ }
+
+
+    </script>
+</body>
+</html>
